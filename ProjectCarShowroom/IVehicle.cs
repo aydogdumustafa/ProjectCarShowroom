@@ -8,6 +8,7 @@ namespace ProjectCarShowroom
 {
     public interface IVehicle
     {
+        string VehicleName { get; set; }
         string VehicleColor { get; set; }
         string VehicleBrand { get; set; }
         int VehiclePower { get; set; }
