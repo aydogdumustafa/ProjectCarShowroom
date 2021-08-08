@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjectCarShowroom
 {
-    class Lorry : IVehicle, IVehicleService
+    class Lorry : IVehicle, IVehicleDal
     {
         public string VehicleName { get; set; }
         public string VehicleColor { get ; set ; }
@@ -17,17 +17,20 @@ namespace ProjectCarShowroom
         public string GearType { get; set; }
         public string TruckType { get; set; }
 
-        public void AddVehicle()
+      
+
+        public void AddVehicle(List<IVehicle> Vehicle, IVehicle vehicle)
         {
             throw new NotImplementedException();
         }
 
-        public void ListVehicle()
+
+        public void ListVehicle(List<IVehicle> Vehicle)
         {
             throw new NotImplementedException();
         }
 
-        public void SellVehicle()
+        public void SellVehicle(List<IVehicle> Vehicle, IVehicle vehicle)
         {
             throw new NotImplementedException();
         }

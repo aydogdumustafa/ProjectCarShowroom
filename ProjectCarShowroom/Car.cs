@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjectCarShowroom
 {
-    class Car : IVehicle, IVehicleService
+    class Car : IVehicle
     {
         public string VehicleName { get; set; }
         public string VehicleColor { get; set; }
@@ -16,24 +16,27 @@ namespace ProjectCarShowroom
         public string GearType { get; set; }
         
 
-        public void AddVehicle(List<IVehicle> Cars,IVehicle car)
-        {
-            Cars.Add(car);
-        }
+        //public void AddVehicle(List<IVehicle> Cars,IVehicle car)
+        //{
+        //    Cars.Add(car);
+        //}
 
-        public void AddVehicle()
-        {
-            throw new NotImplementedException();
-        }
 
-        public void ListVehicle()
-        {
-            throw new NotImplementedException();
-        }
 
-        public void SellVehicle()
-        {
-            throw new NotImplementedException();
-        }
+        //public void ListVehicle(List<IVehicle> Vehicles)
+        //{
+        //    foreach (IVehicle i in Vehicles)
+        //    {
+        //        Console.Write("{0}\t", i.VehicleName);
+        //    }
+        //    Console.WriteLine();
+        //}
+    
+
+
+        //public void SellVehicle(List<IVehicle> Vehicle, IVehicle vehicle)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }
