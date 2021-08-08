@@ -12,5 +12,8 @@ namespace ProjectCarShowroom
         public string VehicleBrand { get ; set ; }
         public int VehiclePower { get ; set ; }
         public int VehicleCapasity { get; set ; }
+        public int WheelNumber { get; set; }
+        public string GearType { get; set; }
+        public string TruckType { get; set; }
     }
 }
