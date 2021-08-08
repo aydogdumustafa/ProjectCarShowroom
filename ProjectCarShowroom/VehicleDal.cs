@@ -15,7 +15,7 @@ namespace ProjectCarShowroom
 
         public void ListVehicle(List<IVehicle> Vehicles)
         {
-            Console.WriteLine("List of Vehicles");
+            Console.WriteLine("List of vehicles ");
             foreach (IVehicle i in Vehicles)
             {
                 Console.Write("{0}\t", i.VehicleName);
