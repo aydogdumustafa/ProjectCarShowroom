@@ -8,5 +8,11 @@ namespace ProjectCarShowroom
 {
     interface ILorry
     {
+        string GearType { get; set; }
+
+        int NumberOfWheels { get; set; }
+
+        string TrailerType { get; set; }
+
     }
 }

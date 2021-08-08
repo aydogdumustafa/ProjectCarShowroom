@@ -8,5 +8,9 @@ namespace ProjectCarShowroom
 {
     interface IPlane
     {
+        string EngineType { get; set; }
+
+        double WingSpan { get; set; }
+
     }
 }

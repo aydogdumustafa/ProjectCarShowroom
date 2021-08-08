@@ -8,7 +8,7 @@ namespace ProjectCarShowroom
 {
     interface ICar
     {
-        string CarGearType { get; set; }
+        string GearType { get; set; }
 
     }
 }
