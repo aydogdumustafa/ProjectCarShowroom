@@ -14,29 +14,6 @@ namespace ProjectCarShowroom
         public int VehiclePower { get; set; }
         public int VehicleCapasity { get; set; }
         public string GearType { get; set; }
-        
 
-        //public void AddVehicle(List<IVehicle> Cars,IVehicle car)
-        //{
-        //    Cars.Add(car);
-        //}
-
-
-
-        //public void ListVehicle(List<IVehicle> Vehicles)
-        //{
-        //    foreach (IVehicle i in Vehicles)
-        //    {
-        //        Console.Write("{0}\t", i.VehicleName);
-        //    }
-        //    Console.WriteLine();
-        //}
-    
-
-
-        //public void SellVehicle(List<IVehicle> Vehicle, IVehicle vehicle)
-        //{
-        //    throw new NotImplementedException();
-        //}
     }
 }

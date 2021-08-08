@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjectCarShowroom
 {
-    class Plane : IVehicle , IVehicleDal
+    class Plane : IVehicle
     {
         public string VehicleName { get; set; }
         public string VehicleColor { get; set; }
@@ -16,22 +16,5 @@ namespace ProjectCarShowroom
         public double WingSpan { get; set; }
         public string EngineType { get; set; }
 
-
-        public void AddVehicle(List<IVehicle> Vehicle, IVehicle vehicle)
-        {
-            throw new NotImplementedException();
-        }
-
-
-        public void ListVehicle(List<IVehicle> Vehicle)
-        {
-            throw new NotImplementedException();
-        }
-
-
-        public void SellVehicle(List<IVehicle> Vehicle, IVehicle vehicle)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
