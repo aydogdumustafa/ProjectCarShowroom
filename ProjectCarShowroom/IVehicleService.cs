@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ProjectCarShowroom
 {
-    interface IListVehicles
+    interface IVehicleService
     {
+        void AddVehicle();
+        void SellVehicle();
+        void ListVehicle();
+
     }
 }
